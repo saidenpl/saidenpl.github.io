@@ -1,0 +1,41 @@
+code, pre {
+  text-align: left;  
+}
+
+em.under {
+  text-decoration: underline;
+}
+
+.modal {
+  text-align: left;
+}
+
+.modal a {
+  color: #337ab7;
+}
+
+.modal li {
+  color: black;
+}
+
+.modal-header {
+  color: black;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.skills div {
+  margin: 0px;
+}
+
+.skills {
+  font-family: monospace;
+  font-size: 10pt;
+}
+
+.skills i {
+  line-height: 1.6;
+  font-size: 18pt;
+}
