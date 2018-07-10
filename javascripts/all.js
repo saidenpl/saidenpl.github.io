@@ -1,5 +1,0 @@
-
-$(function () {
-  $('#info-dot').tooltip()
-})
-;
