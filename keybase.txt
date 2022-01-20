@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aladac
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://saiden.pl
+  * I am aladac (https://keybase.io/aladac) on keybase.
+  * I have a public key ASAxM4x8vNMMgZaAf-CDHfnZHpykvR6j63o-0wZh6uk_NQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012031338c7cbcd30c8196807fe0831df9d91e9ca4bd1ea3eb7a3ed30661eae93f350a",
+      "host": "keybase.io",
+      "kid": "012031338c7cbcd30c8196807fe0831df9d91e9ca4bd1ea3eb7a3ed30661eae93f350a",
+      "uid": "aea363d78e8555d07297284a1b065219",
+      "username": "aladac"
+    },
+    "merkle_root": {
+      "ctime": 1642716213,
+      "hash": "2c375a85b37f994dffa85b2d867d74cf9c0e0c95014e97e9eb9f0b76d832693e33365aded719ae21918b2757a66efd97e86f9c67a9b243fb46285061bbea4d7e",
+      "hash_meta": "588b8f4872ec8969c102aaae7387aba3e63f3568e9f7495e73cf54d7a59137f6",
+      "seqno": 21682684
+    },
+    "service": {
+      "entropy": "IZ4sJ0EY9DgYmEyiEvqjSuqY",
+      "hostname": "saiden.pl",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1642716254,
+  "expire_in": 504576000,
+  "prev": "57fec252cb496e8aaf1f6a89016a12449d185c8f8a06cae192886d4ee48fca16",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMTOMfLzTDIGWgH/ggx352R6cpL0eo+t6PtMGYerpPzUKp3BheWxvYWTESpcCDsQgV/7CUstJboqvH2qJAWoSRJ0YXI+KBsrhkohtTuSPyhbEIAuJaPwILMboIkDOuDJn6eeuWCKNzxzba+lnLGfVpMIbAgHCo3NpZ8RAtsJxe0eWDNZZrqq6pOOjQIj5fmeq+glF1VHGVJGLw5XP55yn7TSNHJGdJSPegrY/sS7mnOwPTVwELSnBPCUDAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPuCXHtsr6nWvOV0wLkp7wSU1t3Ep99rQLejtmkLoII7o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aladac
+
+==================================================================
