@@ -6,27 +6,27 @@ I hereby claim:
 
   * I am an admin of https://saiden.pl
   * I am aladac (https://keybase.io/aladac) on keybase.
-  * I have a public key ASAxM4x8vNMMgZaAf-CDHfnZHpykvR6j63o-0wZh6uk_NQo
+  * I have a public key ASBBJ2PQE86n2H6B5HxjEIYSiXZbLMyZeoBbgKzCxO7pjAo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "012031338c7cbcd30c8196807fe0831df9d91e9ca4bd1ea3eb7a3ed30661eae93f350a",
+      "eldest_kid": "0120412763d013cea7d87e81e47c6310861289765b2ccc997a805b80acc2c4eee98c0a",
       "host": "keybase.io",
-      "kid": "012031338c7cbcd30c8196807fe0831df9d91e9ca4bd1ea3eb7a3ed30661eae93f350a",
+      "kid": "0120412763d013cea7d87e81e47c6310861289765b2ccc997a805b80acc2c4eee98c0a",
       "uid": "aea363d78e8555d07297284a1b065219",
       "username": "aladac"
     },
     "merkle_root": {
-      "ctime": 1642716213,
-      "hash": "2c375a85b37f994dffa85b2d867d74cf9c0e0c95014e97e9eb9f0b76d832693e33365aded719ae21918b2757a66efd97e86f9c67a9b243fb46285061bbea4d7e",
-      "hash_meta": "588b8f4872ec8969c102aaae7387aba3e63f3568e9f7495e73cf54d7a59137f6",
-      "seqno": 21682684
+      "ctime": 1655932852,
+      "hash": "38f93131f283d5079a02c37626f84d596fba80e32ddcc3822ae4eb8c7e06e5554b5deaed888e5c6e2396567a1388bcc3e8b472c0b42df09961580c961ec1e94d",
+      "hash_meta": "3165c913c6b2ba04764f89c56eae090094a32acee0f776d021b13e9941639e46",
+      "seqno": 22723026
     },
     "service": {
-      "entropy": "IZ4sJ0EY9DgYmEyiEvqjSuqY",
+      "entropy": "LomMhXl77nhttXd03onLuaE4",
       "hostname": "saiden.pl",
       "protocol": "https:"
     },
@@ -35,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.9.0"
+    "version": "6.0.1"
   },
-  "ctime": 1642716254,
+  "ctime": 1655932873,
   "expire_in": 504576000,
-  "prev": "57fec252cb496e8aaf1f6a89016a12449d185c8f8a06cae192886d4ee48fca16",
-  "seqno": 14,
+  "prev": "298884e66484f118313a90a3354988d503117dd0472c2b81b41b98877e67d1bc",
+  "seqno": 28,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMTOMfLzTDIGWgH/ggx352R6cpL0eo+t6PtMGYerpPzUKp3BheWxvYWTESpcCDsQgV/7CUstJboqvH2qJAWoSRJ0YXI+KBsrhkohtTuSPyhbEIAuJaPwILMboIkDOuDJn6eeuWCKNzxzba+lnLGfVpMIbAgHCo3NpZ8RAtsJxe0eWDNZZrqq6pOOjQIj5fmeq+glF1VHGVJGLw5XP55yn7TSNHJGdJSPegrY/sS7mnOwPTVwELSnBPCUDAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPuCXHtsr6nWvOV0wLkp7wSU1t3Ep99rQLejtmkLoII7o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQSdj0BPOp9h+geR8YxCGEol2WyzMmXqAW4CswsTu6YwKp3BheWxvYWTESpcCHMQgKYiE5mSE8RgxOpCjNUmI1QMRfdBHLCuBtBuYh35n0bzEIPAQSzWxQAqxedvhHlHwD31Wx6JhDBZGUrOtEHawepeBAgHCo3NpZ8RAsTu0uzGLDvKQJiTv2nn8ESNUPSMm7WrKskyB4VV8+I0ybXbk0OGE54gh4GiTOwEdIx3ODH6x5CkIYWhnywlzAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGPGM+RoGUJ4xSszl73maO9F+ACMhtyOWT8smXxpocs6o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
