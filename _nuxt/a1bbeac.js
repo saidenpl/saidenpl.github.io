@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{286:function(n,o,e){"use strict";e.r(o);o.default={postgresql:{name:"PostgreSQL",icon:"postgresql-plain"},vuejs:{name:"Vue.js",icon:"vuejs-plain"},googleApi:{name:"Google API",icon:"google-plain"},msgraph:{name:"MS Graph",icon:"windows8-plain"}}}}]);
