@@ -7,7 +7,7 @@ NICKNAME:Boss
 ORG:Saiden;
 EMAIL;type=INTERNET;type=pref:adam@saiden.pl
 TEL;type=CELL;type=VOICE;type=pref:+48 535 329 895
-ADR;type=WORK;type=pref:;;9/291 Jana Nowaka-Jeziorańskiego;Warszawa;;03-984;Poland
+ADR;type=WORK;type=pref:;;Jana Nowaka-Jeziorańskiego 9/291;Warszawa;;03-984;Poland
 item1.URL;type=pref:https://saiden.pl
 item1.X-ABLabel:_$!<HomePage>!$_
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAA
