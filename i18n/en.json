@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: January 2025",
+    "acceptance": {
+      "title": "1. Acceptance",
+      "text": "By accessing this website, you agree to these terms. If you disagree, please do not use our services."
+    },
+    "use": {
+      "title": "2. Use of Service",
+      "text": "You agree to use our services lawfully and not for any illegal or unauthorized purpose. You must not violate any laws in your jurisdiction."
+    },
+    "ip": {
+      "title": "3. Intellectual Property",
+      "text": "All content, trademarks, and materials on this site are owned by SAIDEN. You may not reproduce, distribute, or create derivative works without written permission."
+    },
+    "disclaimer": {
+      "title": "4. Disclaimer",
+      "text": "Services are provided \"as is\" without warranties of any kind. We do not guarantee uninterrupted or error-free service."
+    },
+    "liability": {
+      "title": "5. Limitation of Liability",
+      "text": "To the maximum extent permitted by law, SAIDEN shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services."
+    },
+    "law": {
+      "title": "6. Governing Law",
+      "text": "These terms are governed by the laws of Poland and the European Union. For US users, disputes shall be resolved under the laws of the State of Delaware, without regard to conflict of law provisions."
+    },
+    "changes": {
+      "title": "7. Changes",
+      "text": "We may update these terms at any time. Continued use after changes constitutes acceptance of the new terms."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "text": "Questions? Email us at"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: January 2025",
+    "overview": {
+      "title": "1. Overview",
+      "text": "SAIDEN respects your privacy. This policy explains how we collect, use, and protect your data in compliance with GDPR (EU) and CCPA (California)."
+    },
+    "collect": {
+      "title": "2. Data We Collect",
+      "item1": "Contact info (name, email) when you reach out",
+      "item2": "Technical data (IP address, browser, device)",
+      "item3": "Usage data (pages visited, time on site)"
+    },
+    "use": {
+      "title": "3. How We Use Data",
+      "item1": "Respond to inquiries",
+      "item2": "Improve our services",
+      "item3": "Comply with legal obligations"
+    },
+    "legal": {
+      "title": "4. Legal Basis (GDPR)",
+      "text": "We process data based on: consent, contract performance, legal obligations, or legitimate interests that don't override your rights."
+    },
+    "rights": {
+      "title": "5. Your Rights",
+      "eu": "EU Users (GDPR):",
+      "euText": "Access, rectify, erase, restrict, port, or object to your data processing. Withdraw consent anytime.",
+      "us": "California Users (CCPA):",
+      "usText": "Know what data we collect, request deletion, opt-out of sale (we don't sell data), and non-discrimination for exercising rights."
+    },
+    "cookies": {
+      "title": "6. Cookies",
+      "text": "We use essential cookies for site functionality. You can manage preferences in your browser settings."
+    },
+    "retention": {
+      "title": "7. Data Retention",
+      "text": "We keep data only as long as necessary for the purposes collected, then securely delete it."
+    },
+    "security": {
+      "title": "8. Security",
+      "text": "We implement appropriate technical and organizational measures to protect your data."
+    },
+    "transfers": {
+      "title": "9. International Transfers",
+      "text": "If we transfer data outside the EEA, we ensure appropriate safeguards (e.g., Standard Contractual Clauses)."
+    },
+    "contact": {
+      "title": "10. Contact",
+      "text": "Privacy inquiries:",
+      "complaint": "You may also lodge a complaint with your local data protection authority."
+    }
+  }
+}

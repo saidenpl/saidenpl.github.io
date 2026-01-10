@@ -14,8 +14,20 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxt/eslint',
-    '@nuxt/a11y'
+    '@nuxt/a11y',
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US', file: 'en.json', name: 'English' },
+      { code: 'pl', language: 'pl-PL', file: 'pl.json', name: 'Polski' }
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: '.'
+  },
 
   fonts: {
     families: [

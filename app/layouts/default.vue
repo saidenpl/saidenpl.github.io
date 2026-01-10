@@ -6,16 +6,29 @@
       <header class="max-w-4xl mx-auto px-6">
         <nav class="flex items-center justify-between py-4 border-b border-white/10">
           <!-- Logo -->
-          <NuxtLink to="/" class="flex items-center">
+          <NuxtLink :to="localePath('/')" class="flex items-center">
             <img src="/logo.png" alt="SAIDEN" class="h-8">
           </NuxtLink>
 
           <!-- Navigation links -->
           <div class="flex items-center gap-8">
-            <NuxtLink to="/" exact-active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Home</NuxtLink>
-            <NuxtLink to="/terms" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Terms</NuxtLink>
-            <NuxtLink to="/privacy" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Privacy</NuxtLink>
-            <NuxtLink to="/contact" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Contact</NuxtLink>
+            <NuxtLink :to="localePath('/')" exact-active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.home') }}</NuxtLink>
+            <NuxtLink :to="localePath('/terms')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.terms') }}</NuxtLink>
+            <NuxtLink :to="localePath('/privacy')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.privacy') }}</NuxtLink>
+            <NuxtLink :to="localePath('/contact')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.contact') }}</NuxtLink>
+
+            <!-- Language switcher -->
+            <div class="flex items-center gap-2 ml-4 pl-4 border-l border-white/10">
+              <NuxtLink
+                v-for="locale in availableLocales"
+                :key="locale.code"
+                :to="switchLocalePath(locale.code)"
+                class="text-xs uppercase"
+                :class="locale.code === $i18n.locale ? 'text-red-500' : 'text-white/40 hover:text-white'"
+              >
+                {{ locale.code }}
+              </NuxtLink>
+            </div>
           </div>
         </nav>
       </header>
@@ -27,3 +40,11 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const { locale, locales } = useI18n()
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
+
+const availableLocales = computed(() => locales.value)
+</script>

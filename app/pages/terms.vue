@@ -1,49 +1,49 @@
 <template>
   <div class="space-y-8">
     <div>
-      <h1 class="text-3xl font-bold text-white mb-2">Terms of Service</h1>
-      <p class="text-white/40 text-sm">Last updated: January 2025</p>
+      <h1 class="text-3xl font-bold text-white mb-2">{{ $t('terms.title') }}</h1>
+      <p class="text-white/40 text-sm">{{ $t('terms.updated') }}</p>
     </div>
 
     <div class="space-y-6 text-white/70 leading-relaxed">
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">1. Acceptance</h2>
-        <p>By accessing this website, you agree to these terms. If you disagree, please do not use our services.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.acceptance.title') }}</h2>
+        <p>{{ $t('terms.acceptance.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">2. Use of Service</h2>
-        <p>You agree to use our services lawfully and not for any illegal or unauthorized purpose. You must not violate any laws in your jurisdiction.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.use.title') }}</h2>
+        <p>{{ $t('terms.use.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">3. Intellectual Property</h2>
-        <p>All content, trademarks, and materials on this site are owned by SAIDEN. You may not reproduce, distribute, or create derivative works without written permission.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.ip.title') }}</h2>
+        <p>{{ $t('terms.ip.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">4. Disclaimer</h2>
-        <p>Services are provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free service.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.disclaimer.title') }}</h2>
+        <p>{{ $t('terms.disclaimer.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">5. Limitation of Liability</h2>
-        <p>To the maximum extent permitted by law, SAIDEN shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.liability.title') }}</h2>
+        <p>{{ $t('terms.liability.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">6. Governing Law</h2>
-        <p>These terms are governed by the laws of Poland and the European Union. For US users, disputes shall be resolved under the laws of the State of Delaware, without regard to conflict of law provisions.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.law.title') }}</h2>
+        <p>{{ $t('terms.law.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">7. Changes</h2>
-        <p>We may update these terms at any time. Continued use after changes constitutes acceptance of the new terms.</p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.changes.title') }}</h2>
+        <p>{{ $t('terms.changes.text') }}</p>
       </section>
 
       <section>
-        <h2 class="text-lg font-semibold text-white mb-2">8. Contact</h2>
-        <p>Questions? Email us at <a href="mailto:legal@saiden.pl" class="text-red-500 hover:text-red-400">legal@saiden.pl</a></p>
+        <h2 class="text-lg font-semibold text-white mb-2">{{ $t('terms.contact.title') }}</h2>
+        <p>{{ $t('terms.contact.text') }} <a href="mailto:legal@saiden.pl" class="text-red-500 hover:text-red-400">legal@saiden.pl</a></p>
       </section>
     </div>
   </div>
