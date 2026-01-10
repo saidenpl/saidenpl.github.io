@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <!-- Privacy page content here -->
   </div>
 </template>

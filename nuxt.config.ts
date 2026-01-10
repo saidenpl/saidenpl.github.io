@@ -3,8 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  css: ['~/assets/css/main.css'],
+
   modules: [
     '@nuxt/content',
+    '@nuxt/fonts',
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/scripts',
@@ -12,5 +15,15 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/eslint',
     '@nuxt/a11y'
-  ]
+  ],
+
+  fonts: {
+    families: [
+      { name: 'Space Grotesk', provider: 'google', weights: [400, 500, 600, 700] }
+    ]
+  },
+
+  colorMode: {
+    preference: 'dark'
+  }
 })

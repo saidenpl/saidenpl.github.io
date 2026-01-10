@@ -1,5 +1,5 @@
 <template>
   <div>
-    <!-- Home page content here -->
+    <!-- Terms page content here -->
   </div>
 </template>
