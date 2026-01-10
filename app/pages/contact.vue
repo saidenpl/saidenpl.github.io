@@ -7,14 +7,24 @@
       <section class="space-y-4">
         <h2 class="text-lg font-semibold text-white">{{ $t('contact.info.title') }}</h2>
         <div class="text-white/70">
-          <p>{{ $t('contact.info.address') }}</p>
-          <p>{{ $t('contact.info.city') }}</p>
-          <p class="mt-2">
-            <span class="text-white/40">NIP:</span> {{ $t('contact.company.nipValue') }}
-          </p>
-          <p>
-            <span class="text-white/40">REGON:</span> {{ $t('contact.company.regonValue') }}
-          </p>
+          <div class="flex items-center gap-2">
+            <span>{{ $t('contact.info.address') }}</span>
+            <CopyButton :value="$t('contact.info.address')" />
+          </div>
+          <div class="flex items-center gap-2">
+            <span>{{ $t('contact.info.city') }}</span>
+            <CopyButton :value="$t('contact.info.city')" />
+          </div>
+          <div class="flex items-center gap-2 mt-2">
+            <span class="text-white/40">NIP:</span>
+            <span>{{ $t('contact.company.nipValue') }}</span>
+            <CopyButton :value="$t('contact.company.nipValue')" />
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-white/40">REGON:</span>
+            <span>{{ $t('contact.company.regonValue') }}</span>
+            <CopyButton :value="$t('contact.company.regonValue')" />
+          </div>
         </div>
       </section>
 
