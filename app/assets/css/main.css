@@ -1,25 +1,10 @@
+@import "tailwindcss";
+
 html,
 body {
   background-color: #000 !important;
   color: #fff;
   font-family: 'Space Grotesk', system-ui, sans-serif;
-}
-
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-/* Links */
-a {
-  color: #ef4444;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #f87171;
 }
 
 /* Selection */
