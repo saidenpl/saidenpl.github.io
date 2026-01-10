@@ -41,6 +41,34 @@
       "text": "Questions? Email us at"
     }
   },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "title": "Contact Information",
+      "address": "ul. Jana Nowaka-Jezioranskiego 9 lok. 291",
+      "city": "03-984 Warsaw, Poland"
+    },
+    "company": {
+      "title": "Company Details",
+      "fullName": "Full name:",
+      "fullNameValue": "SAIDEN Adam Ladachowski",
+      "regAddress": "Registered address:",
+      "nip": "Tax ID (NIP):",
+      "nipValue": "5361572246",
+      "regon": "REGON:",
+      "regonValue": "147201411",
+      "legalForm": "Legal form:",
+      "legalFormValue": "Sole proprietorship",
+      "startDate": "Business start date:",
+      "startDateValue": "May 1, 2014",
+      "registry": "Official registry:",
+      "registryLink": "CEIDG (Polish Business Registry)"
+    },
+    "activity": {
+      "title": "What We Do",
+      "description": "Software development, IT consulting, and infrastructure management."
+    }
+  },
   "privacy": {
     "title": "Privacy Policy",
     "updated": "Last updated: January 2025",
