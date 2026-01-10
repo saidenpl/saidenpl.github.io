@@ -41,6 +41,34 @@
       "text": "Pytania? Napisz do nas:"
     }
   },
+  "contact": {
+    "title": "Kontakt",
+    "info": {
+      "title": "Dane kontaktowe",
+      "address": "ul. Jana Nowaka-Jezioranskiego 9 lok. 291",
+      "city": "03-984 Warszawa"
+    },
+    "company": {
+      "title": "Dane firmowe",
+      "fullName": "Nazwa pelna:",
+      "fullNameValue": "SAIDEN Adam Ladachowski",
+      "regAddress": "Adres rejestrowy:",
+      "nip": "NIP:",
+      "nipValue": "5361572246",
+      "regon": "REGON:",
+      "regonValue": "147201411",
+      "legalForm": "Forma prawna:",
+      "legalFormValue": "Indywidualna dzialalnosc gospodarcza",
+      "startDate": "Data rozpoczecia dzialalnosci:",
+      "startDateValue": "01.05.2014",
+      "registry": "Rejestr publiczny:",
+      "registryLink": "CEIDG"
+    },
+    "activity": {
+      "title": "Czym sie zajmujemy",
+      "description": "Tworzenie oprogramowania, doradztwo IT i zarzadzanie infrastruktura."
+    }
+  },
   "privacy": {
     "title": "Polityka prywatnosci",
     "updated": "Ostatnia aktualizacja: styczen 2025",
