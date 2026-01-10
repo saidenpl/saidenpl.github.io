@@ -12,10 +12,10 @@
 
           <!-- Navigation links -->
           <div class="flex items-center gap-8">
-            <NuxtLink to="/" class="text-sm text-white/60 hover:text-white transition-colors">Home</NuxtLink>
-            <NuxtLink to="/terms" class="text-sm text-white/60 hover:text-white transition-colors">Terms</NuxtLink>
-            <NuxtLink to="/privacy" class="text-sm text-white/60 hover:text-white transition-colors">Privacy</NuxtLink>
-            <NuxtLink to="/contact" class="text-sm text-white/60 hover:text-white transition-colors">Contact</NuxtLink>
+            <NuxtLink to="/" exact-active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Home</NuxtLink>
+            <NuxtLink to="/terms" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Terms</NuxtLink>
+            <NuxtLink to="/privacy" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Privacy</NuxtLink>
+            <NuxtLink to="/contact" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">Contact</NuxtLink>
           </div>
         </nav>
       </header>
