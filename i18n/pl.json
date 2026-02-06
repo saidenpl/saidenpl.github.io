@@ -45,38 +45,38 @@
   },
   "terms": {
     "title": "Regulamin",
-    "updated": "Ostatnia aktualizacja: styczen 2025",
+    "updated": "Ostatnia aktualizacja: luty 2026",
     "acceptance": {
-      "title": "1. Akceptacja",
-      "text": "Korzystajac z tej strony, akceptujesz niniejszy regulamin. Jesli sie nie zgadzasz, prosimy o niekorzystanie z naszych uslug."
+      "title": "1. Akceptacja warunkow",
+      "text": "Korzystajac z tej strony lub uslug, akceptujesz niniejszy regulamin. Jesli nie zgadzasz sie z tymi warunkami, prosimy o niekorzystanie z naszych uslug."
     },
     "use": {
-      "title": "2. Korzystanie z uslugi",
-      "text": "Zgadzasz sie korzystac z naszych uslug zgodnie z prawem i nie w celach nielegalnych lub nieautoryzowanych. Nie wolno lamac przepisow obowiazujacych w Twojej jurysdykcji."
+      "title": "2. Dozwolone uzycie",
+      "text": "Mozesz korzystac z naszych uslug wylacznie w celach zgodnych z prawem. Zobowiazujesz sie nie wykorzystywac naszych uslug do dzialan nielegalnych, nieautoryzowanych lub szkodliwych oraz przestrzegac wszystkich obowiazujacych przepisow."
     },
     "ip": {
       "title": "3. Wlasnosc intelektualna",
-      "text": "Wszystkie tresci, znaki towarowe i materialy na tej stronie sa wlasnoscia SAIDEN. Nie wolno ich reprodukowac, rozpowszechniac ani tworzyc dziel pochodnych bez pisemnej zgody."
+      "text": "Wszystkie tresci, kod, znaki towarowe i materialy na tej stronie sa wlasnoscia SAIDEN, chyba ze zaznaczono inaczej. Reprodukcja, dystrybucja lub tworzenie dziel pochodnych wymaga uprzedniej pisemnej zgody."
     },
     "disclaimer": {
-      "title": "4. Wylaczenie odpowiedzialnosci",
-      "text": "Uslugi sa swiadczone w stanie \"takim, jakim sa\" bez jakichkolwiek gwarancji. Nie gwarantujemy nieprzerwanego lub bezbladnego dzialania uslugi."
+      "title": "4. Wylaczenie gwarancji",
+      "text": "Nasze uslugi sa swiadczone w stanie \"takim, jakim sa\" i \"w miare dostepnosci\" bez jakichkolwiek gwarancji, wyraznych lub dorozumianych. Nie gwarantujemy dostepnosci, dokladnosci ani niezawodnosci."
     },
     "liability": {
       "title": "5. Ograniczenie odpowiedzialnosci",
-      "text": "W maksymalnym zakresie dozwolonym przez prawo, SAIDEN nie ponosi odpowiedzialnosci za jakiekolwiek posrednie, przypadkowe, szczegolne lub wynikowe szkody wynikajace z korzystania z naszych uslug."
+      "text": "W najszerszym zakresie dozwolonym przez prawo, SAIDEN nie ponosi odpowiedzialnosci za jakiekolwiek posrednie, przypadkowe, szczegolne, wynikowe lub karne szkody wynikajace z korzystania z naszych uslug."
     },
     "law": {
       "title": "6. Prawo wlasciwe",
-      "text": "Niniejszy regulamin podlega prawu polskiemu i Unii Europejskiej. Dla uzytkownikow z USA spory rozstrzygane sa zgodnie z prawem stanu Delaware."
+      "text": "Niniejszy regulamin podlega prawu polskiemu oraz obowiazujacym przepisom UE. Dla uzytkownikow spoza UE spory beda rozstrzygane zgodnie z prawem polskim przez sady w Warszawie."
     },
     "changes": {
       "title": "7. Zmiany",
-      "text": "Mozemy aktualizowac niniejszy regulamin w dowolnym momencie. Dalsze korzystanie po zmianach oznacza akceptacje nowych warunkow."
+      "text": "Zastrzegamy sobie prawo do zmiany niniejszego regulaminu w dowolnym momencie. Zmiany wchodza w zycie z chwila publikacji. Dalsze korzystanie oznacza akceptacje zaktualizowanych warunkow."
     },
     "contact": {
       "title": "8. Kontakt",
-      "text": "Pytania? Napisz do nas:"
+      "text": "W sprawie pytan dotyczacych regulaminu, skontaktuj sie z nami:"
     }
   },
   "contact": {
@@ -109,54 +109,54 @@
   },
   "privacy": {
     "title": "Polityka prywatnosci",
-    "updated": "Ostatnia aktualizacja: styczen 2025",
+    "updated": "Ostatnia aktualizacja: luty 2026",
     "overview": {
       "title": "1. Wprowadzenie",
-      "text": "SAIDEN szanuje Twoja prywatnosc. Niniejsza polityka wyjasnia, jak zbieramy, wykorzystujemy i chronimy Twoje dane zgodnie z RODO (UE) i CCPA (Kalifornia)."
+      "text": "SAIDEN (\"my\", \"nas\", \"nasz\") szanuje Twoja prywatnosc. Niniejsza polityka opisuje, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe zgodnie z RODO (UE) oraz CCPA/CPRA (Kalifornia)."
     },
     "collect": {
       "title": "2. Jakie dane zbieramy",
       "item1": "Dane kontaktowe (imie, email) gdy sie z nami kontaktujesz",
-      "item2": "Dane techniczne (adres IP, przegladarka, urzadzenie)",
-      "item3": "Dane o uzyciu (odwiedzane strony, czas na stronie)"
+      "item2": "Dane techniczne (adres IP, typ przegladarki, informacje o urzadzeniu)",
+      "item3": "Dane o uzyciu (odwiedzane strony, czas na stronie, zrodlo odwiedzin)"
     },
     "use": {
-      "title": "3. Jak wykorzystujemy dane",
-      "item1": "Odpowiadamy na zapytania",
-      "item2": "Ulepszamy nasze uslugi",
-      "item3": "Spelniamy obowiazki prawne"
+      "title": "3. Jak wykorzystujemy Twoje dane",
+      "item1": "Aby odpowiadac na Twoje zapytania i swiadczyc wsparcie",
+      "item2": "Aby ulepszac nasza strone i uslugi",
+      "item3": "Aby wypelniac obowiazki prawne"
     },
     "legal": {
-      "title": "4. Podstawa prawna (RODO)",
-      "text": "Przetwarzamy dane na podstawie: zgody, wykonania umowy, obowiazkow prawnych lub uzasadnionych interesow, ktore nie naruszaja Twoich praw."
+      "title": "4. Podstawa prawna przetwarzania (RODO)",
+      "text": "Przetwarzamy dane osobowe na podstawie: Twojej zgody, wykonania umowy, wypelnienia obowiazkow prawnych lub naszych uzasadnionych interesow (pod warunkiem, ze nie naruszaja one Twoich podstawowych praw)."
     },
     "rights": {
       "title": "5. Twoje prawa",
-      "eu": "Uzytkownicy z UE (RODO):",
-      "euText": "Dostep, sprostowanie, usuniecie, ograniczenie, przenoszenie lub sprzeciw wobec przetwarzania danych. Mozesz wycofac zgode w dowolnym momencie.",
-      "us": "Uzytkownicy z Kalifornii (CCPA):",
-      "usText": "Prawo do informacji o zbieranych danych, zadania usuniecia, rezygnacji ze sprzedazy (nie sprzedajemy danych) i niedyskryminacji za korzystanie z praw."
+      "eu": "Uzytkownicy z UE/EOG (RODO):",
+      "euText": "Masz prawo dostepu, sprostowania, usuniecia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu wobec przetwarzania. Mozesz wycofac zgode w dowolnym momencie.",
+      "us": "Uzytkownicy z Kalifornii (CCPA/CPRA):",
+      "usText": "Masz prawo wiedziec, jakie dane osobowe zbieramy, zadac ich usuniecia, zrezygnowac ze sprzedazy lub udostepniania (nie sprzedajemy Twoich danych) oraz nie byc dyskryminowanym za korzystanie ze swoich praw."
     },
     "cookies": {
       "title": "6. Pliki cookie",
-      "text": "Uzywamy niezbednych plikow cookie do dzialania strony. Mozesz zarzadzac preferencjami w ustawieniach przegladarki."
+      "text": "Uzywamy wylacznie niezbednych plikow cookie wymaganych do podstawowego dzialania strony. Nie stosujemy plikow sledzacych ani reklamowych. Mozesz zarzadzac preferencjami cookie w ustawieniach przegladarki."
     },
     "retention": {
-      "title": "7. Przechowywanie danych",
-      "text": "Przechowujemy dane tylko tak dlugo, jak jest to konieczne do celow, dla ktorych zostaly zebrane, a nastepnie bezpiecznie je usuwamy."
+      "title": "7. Okres przechowywania danych",
+      "text": "Przechowujemy dane osobowe tylko tak dlugo, jak jest to konieczne do realizacji celow, dla ktorych zostaly zebrane. Po tym okresie dane sa bezpiecznie usuwane lub anonimizowane."
     },
     "security": {
-      "title": "8. Bezpieczenstwo",
-      "text": "Wdrazamy odpowiednie srodki techniczne i organizacyjne w celu ochrony Twoich danych."
+      "title": "8. Srodki bezpieczenstwa",
+      "text": "Wdrazamy odpowiednie srodki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed nieuprawnionym dostepem, zmiana, ujawnieniem lub zniszczeniem."
     },
     "transfers": {
-      "title": "9. Transfery miedzynarodowe",
-      "text": "Jesli przekazujemy dane poza EOG, zapewniamy odpowiednie zabezpieczenia (np. Standardowe Klauzule Umowne)."
+      "title": "9. Miedzynarodowe transfery danych",
+      "text": "Jesli przekazujemy dane osobowe poza EOG, zapewniamy odpowiednie zabezpieczenia, takie jak Standardowe Klauzule Umowne zatwierdzone przez Komisje Europejska."
     },
     "contact": {
-      "title": "10. Kontakt",
-      "text": "Pytania dotyczace prywatnosci:",
-      "complaint": "Mozesz rowniez zlozyc skarge do lokalnego organu ochrony danych."
+      "title": "10. Kontakt i skargi",
+      "text": "W sprawie pytan dotyczacych prywatnosci, skontaktuj sie z nami:",
+      "complaint": "Masz rowniez prawo zlozyc skarge do lokalnego organu nadzorczego ds. ochrony danych."
     }
   }
 }

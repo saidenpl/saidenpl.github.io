@@ -45,38 +45,38 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "updated": "Last updated: January 2025",
+    "updated": "Last updated: February 2026",
     "acceptance": {
-      "title": "1. Acceptance",
-      "text": "By accessing this website, you agree to these terms. If you disagree, please do not use our services."
+      "title": "1. Acceptance of Terms",
+      "text": "By accessing or using this website, you agree to be bound by these terms. If you do not agree, please refrain from using our services."
     },
     "use": {
-      "title": "2. Use of Service",
-      "text": "You agree to use our services lawfully and not for any illegal or unauthorized purpose. You must not violate any laws in your jurisdiction."
+      "title": "2. Permitted Use",
+      "text": "You may use our services only for lawful purposes. You agree not to use our services for any illegal, unauthorized, or harmful activities, and to comply with all applicable laws in your jurisdiction."
     },
     "ip": {
       "title": "3. Intellectual Property",
-      "text": "All content, trademarks, and materials on this site are owned by SAIDEN. You may not reproduce, distribute, or create derivative works without written permission."
+      "text": "All content, code, trademarks, and materials on this site are the property of SAIDEN unless otherwise noted. Reproduction, distribution, or creation of derivative works requires prior written consent."
     },
     "disclaimer": {
-      "title": "4. Disclaimer",
-      "text": "Services are provided \"as is\" without warranties of any kind. We do not guarantee uninterrupted or error-free service."
+      "title": "4. Disclaimer of Warranties",
+      "text": "Our services are provided \"as is\" and \"as available\" without warranties of any kind, express or implied. We make no guarantees regarding availability, accuracy, or reliability."
     },
     "liability": {
       "title": "5. Limitation of Liability",
-      "text": "To the maximum extent permitted by law, SAIDEN shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services."
+      "text": "To the fullest extent permitted by law, SAIDEN shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services."
     },
     "law": {
       "title": "6. Governing Law",
-      "text": "These terms are governed by the laws of Poland and the European Union. For US users, disputes shall be resolved under the laws of the State of Delaware, without regard to conflict of law provisions."
+      "text": "These terms are governed by the laws of Poland and applicable EU regulations. For users outside the EU, disputes will be resolved under Polish law in courts located in Warsaw."
     },
     "changes": {
-      "title": "7. Changes",
-      "text": "We may update these terms at any time. Continued use after changes constitutes acceptance of the new terms."
+      "title": "7. Modifications",
+      "text": "We reserve the right to modify these terms at any time. Changes become effective upon posting. Your continued use constitutes acceptance of the updated terms."
     },
     "contact": {
       "title": "8. Contact",
-      "text": "Questions? Email us at"
+      "text": "For questions about these terms, contact us at"
     }
   },
   "contact": {
@@ -109,54 +109,54 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Last updated: January 2025",
+    "updated": "Last updated: February 2026",
     "overview": {
-      "title": "1. Overview",
-      "text": "SAIDEN respects your privacy. This policy explains how we collect, use, and protect your data in compliance with GDPR (EU) and CCPA (California)."
+      "title": "1. Introduction",
+      "text": "SAIDEN (\"we\", \"us\", \"our\") respects your privacy. This policy describes how we collect, use, and protect your personal data in compliance with the GDPR (EU) and CCPA/CPRA (California)."
     },
     "collect": {
-      "title": "2. Data We Collect",
-      "item1": "Contact info (name, email) when you reach out",
-      "item2": "Technical data (IP address, browser, device)",
-      "item3": "Usage data (pages visited, time on site)"
+      "title": "2. Information We Collect",
+      "item1": "Contact information (name, email) when you reach out to us",
+      "item2": "Technical data (IP address, browser type, device information)",
+      "item3": "Usage data (pages visited, time spent on site, referral source)"
     },
     "use": {
-      "title": "3. How We Use Data",
-      "item1": "Respond to inquiries",
-      "item2": "Improve our services",
-      "item3": "Comply with legal obligations"
+      "title": "3. How We Use Your Data",
+      "item1": "To respond to your inquiries and provide support",
+      "item2": "To improve our website and services",
+      "item3": "To comply with legal obligations"
     },
     "legal": {
-      "title": "4. Legal Basis (GDPR)",
-      "text": "We process data based on: consent, contract performance, legal obligations, or legitimate interests that don't override your rights."
+      "title": "4. Legal Basis for Processing (GDPR)",
+      "text": "We process personal data based on: your consent, performance of a contract, compliance with legal obligations, or our legitimate interests (provided they do not override your fundamental rights)."
     },
     "rights": {
       "title": "5. Your Rights",
-      "eu": "EU Users (GDPR):",
-      "euText": "Access, rectify, erase, restrict, port, or object to your data processing. Withdraw consent anytime.",
-      "us": "California Users (CCPA):",
-      "usText": "Know what data we collect, request deletion, opt-out of sale (we don't sell data), and non-discrimination for exercising rights."
+      "eu": "EU/EEA Users (GDPR):",
+      "euText": "You have the right to access, rectify, erase, restrict processing, data portability, and to object to processing. You may withdraw consent at any time.",
+      "us": "California Users (CCPA/CPRA):",
+      "usText": "You have the right to know what personal information we collect, to request deletion, to opt-out of sale or sharing (we do not sell your data), and to not be discriminated against for exercising your rights."
     },
     "cookies": {
       "title": "6. Cookies",
-      "text": "We use essential cookies for site functionality. You can manage preferences in your browser settings."
+      "text": "We use only essential cookies required for basic site functionality. No tracking or advertising cookies are used. You can manage cookie preferences in your browser settings."
     },
     "retention": {
       "title": "7. Data Retention",
-      "text": "We keep data only as long as necessary for the purposes collected, then securely delete it."
+      "text": "We retain personal data only as long as necessary to fulfill the purposes for which it was collected. After this period, data is securely deleted or anonymized."
     },
     "security": {
-      "title": "8. Security",
-      "text": "We implement appropriate technical and organizational measures to protect your data."
+      "title": "8. Security Measures",
+      "text": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction."
     },
     "transfers": {
-      "title": "9. International Transfers",
-      "text": "If we transfer data outside the EEA, we ensure appropriate safeguards (e.g., Standard Contractual Clauses)."
+      "title": "9. International Data Transfers",
+      "text": "If we transfer personal data outside the EEA, we ensure appropriate safeguards are in place, such as Standard Contractual Clauses approved by the European Commission."
     },
     "contact": {
-      "title": "10. Contact",
-      "text": "Privacy inquiries:",
-      "complaint": "You may also lodge a complaint with your local data protection authority."
+      "title": "10. Contact & Complaints",
+      "text": "For privacy-related inquiries, contact us at",
+      "complaint": "You also have the right to lodge a complaint with your local data protection supervisory authority."
     }
   }
 }
