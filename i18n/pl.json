@@ -5,32 +5,32 @@
     "disclaimer": "(Maszyny jeszcze nie przejely wladzy. Mamy je na oku.)",
     "opensource": {
       "title": "Open Source",
-      "subtitle": "Narzedzia, ktore wypuscilismy na wolnosc.",
+      "subtitle": "Narzedzia, ktore wypuscilismy w swiat.",
       "hu": {
-        "desc": "CLI do integracji z Claude Code. Nowy najlepszy przyjaciel Twojego terminala."
+        "desc": "CLI rozszerzajace Claude Code o wlasne komendy. Twoj terminal, naladowany."
       },
       "claudeBrowse": {
-        "desc": "Automatyzacja przegladarki dla Claude Code. Niech AI klika za Ciebie."
+        "desc": "Automatyzacja przegladarki przez Playwright dla Claude Code. Niech AI przegląda za Ciebie."
       },
       "tensors": {
-        "desc": "CLI do plikow safetensor i modeli CivitAI. Oswajamy wagi od 2024."
+        "desc": "CLI do zarzadzania wagami modeli safetensor i przegladania CivitAI. Oswajamy tensory, plik po pliku."
       }
     },
     "current": {
       "title": "Obecnie Budujemy",
-      "subtitle": "Co gotuje sie w laboratorium.",
+      "subtitle": "Co warzy sie w laboratorium.",
       "items": {
         "assistants": {
           "title": "Frameworki Asystentow AI",
-          "desc": "Systemy trwalej pamieci i wtyczki do Claude Code. Uczymy AI pamietac Twoje zamowienie na kawe."
+          "desc": "Systemy trwalej pamieci i wtyczki do Claude Code. Bo nawet AI zasluguje na pamiec dlugoterminowa."
         },
         "imageGen": {
           "title": "Narzedzia do Generowania Obrazow",
-          "desc": "Aplikacje desktopowe i CLI do generowania obrazow AI. Bo pisanie jest szybsze niz klikanie 47 przyciskow."
+          "desc": "Aplikacje desktopowe i CLI dla Stable Diffusion i przyjaciol. Piksele na zadanie."
         },
         "agents": {
-          "title": "Agenci Edytorow",
-          "desc": "Minimalni agenci AI dla edytorow kodu. Maly slad, wielkie ambicje."
+          "title": "Agenci ACP",
+          "desc": "Lekkie agenty dla Agent Client Protocol. Laczenie AI z kazdym edytorem, ktory mowi tym jezykiem."
         }
       }
     },
