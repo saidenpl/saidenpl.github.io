@@ -1,4 +1,28 @@
 {
+  "home": {
+    "tagline": "Sanktuarium Cyfrowej Mysli",
+    "subtitle": "Gdzie AI spotyka rzemioslo. Budujemy narzedzia, ktore ucza maszyny myslec, a programistom przywracaja usmiech.",
+    "disclaimer": "(Maszyny jeszcze nie przejely wladzy. Mamy je na oku.)",
+    "projects": {
+      "title": "AI i Narzedzia Deweloperskie",
+      "subtitle": "Prywatne repozytoria. Bo niektore sekrety warto chronic.",
+      "private": "Prywatne",
+      "personality": {
+        "desc": "Framework asystenta AI z trwala pamiecia i wtyczkami do Claude Code. Pamieta rzeczy, zebys Ty nie musial."
+      },
+      "claude": {
+        "desc": "Konfiguracja Claude Code i wlasne komendy. Sprawiamy, ze asystenci AI sa naprawde przydatni od 2024."
+      },
+      "xc": {
+        "desc": "CLI i aplikacja desktopowa do generowania obrazow. Bo pisanie jest szybsze niz klikanie 47 przyciskow."
+      },
+      "olingo": {
+        "desc": "Minimalny agent ACP dla edytora Zed. Maly slad, wielkie ambicje."
+      }
+    },
+    "cta": "Ciekawi Cie, co budujemy?",
+    "ctaButton": "Skontaktuj sie"
+  },
   "nav": {
     "home": "Strona glowna",
     "terms": "Regulamin",

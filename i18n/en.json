@@ -1,4 +1,28 @@
 {
+  "home": {
+    "tagline": "The Sanctuary of Digital Thought",
+    "subtitle": "Where AI meets craftsmanship. We build tools that make machines think and developers smile.",
+    "disclaimer": "(The machines haven't taken over yet. We're keeping an eye on them.)",
+    "projects": {
+      "title": "AI & Developer Tools",
+      "subtitle": "Private repositories. Because some secrets are worth keeping.",
+      "private": "Private",
+      "personality": {
+        "desc": "AI assistant framework with persistent memory and Claude Code plugins. It remembers things so you don't have to."
+      },
+      "claude": {
+        "desc": "Claude Code configuration and custom commands. Making AI assistants actually useful since 2024."
+      },
+      "xc": {
+        "desc": "Image generation CLI and desktop app. Because typing is faster than clicking 47 buttons."
+      },
+      "olingo": {
+        "desc": "Minimal ACP agent for Zed editor. Small footprint, big ambitions."
+      }
+    },
+    "cta": "Interested in what we're building?",
+    "ctaButton": "Get in Touch"
+  },
   "nav": {
     "home": "Home",
     "terms": "Terms",
