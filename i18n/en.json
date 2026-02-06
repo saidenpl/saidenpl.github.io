@@ -43,6 +43,10 @@
         }
       }
     },
+    "counter": {
+      "label": "AI tokens processed worldwide",
+      "disclaimer": "* Totally real number, trust us"
+    },
     "cta": "Interested in what we're building?",
     "ctaButton": "Get in Touch"
   },

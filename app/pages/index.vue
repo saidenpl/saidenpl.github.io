@@ -13,6 +13,15 @@
       </p>
     </section>
 
+    <!-- Token Counter -->
+    <section class="py-8 text-center border-y border-white/10 bg-gradient-to-r from-transparent via-red-500/5 to-transparent">
+      <p class="text-white/40 text-sm mb-2">{{ $t('home.counter.label') }}</p>
+      <div class="font-mono text-4xl md:text-5xl font-bold text-red-500 tabular-nums tracking-tight">
+        {{ formattedTokens }}
+      </div>
+      <p class="text-white/30 text-xs mt-2">{{ $t('home.counter.disclaimer') }}</p>
+    </section>
+
     <!-- Open Source Projects -->
     <section class="py-12">
       <h2 class="text-2xl font-semibold mb-2">{{ $t('home.opensource.title') }}</h2>
@@ -74,6 +83,34 @@
 
 <script setup>
 const localePath = useLocalePath()
+
+// Fake token counter - starts at a big number and increments fast
+const baseTokens = 847_293_847_192_847
+const tokensPerSecond = 12_847_293 // ~12.8M tokens/sec for dramatic effect
+const startTime = Date.now()
+
+const tokenCount = ref(baseTokens)
+
+const formattedTokens = computed(() => {
+  return tokenCount.value.toLocaleString('en-US')
+})
+
+let animationFrame: number
+
+onMounted(() => {
+  const updateCounter = () => {
+    const elapsed = (Date.now() - startTime) / 1000
+    tokenCount.value = Math.floor(baseTokens + (elapsed * tokensPerSecond))
+    animationFrame = requestAnimationFrame(updateCounter)
+  }
+  updateCounter()
+})
+
+onUnmounted(() => {
+  if (animationFrame) {
+    cancelAnimationFrame(animationFrame)
+  }
+})
 
 const openSourceProjects = [
   { key: 'hu', name: 'hu', lang: 'Rust', url: 'https://github.com/aladac/hu' },

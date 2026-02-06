@@ -43,6 +43,10 @@
         }
       }
     },
+    "counter": {
+      "label": "Tokenow AI przetworzonych na swiecie",
+      "disclaimer": "* Calkowicie prawdziwa liczba, zaufaj nam"
+    },
     "cta": "Ciekawi Cie, co budujemy?",
     "ctaButton": "Skontaktuj sie"
   },
