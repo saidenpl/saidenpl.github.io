@@ -95,7 +95,7 @@ const formattedTokens = computed(() => {
   return tokenCount.value.toLocaleString('en-US')
 })
 
-let animationFrame: number
+let animationFrame
 
 onMounted(() => {
   const updateCounter = () => {
