@@ -13,33 +13,48 @@
       </p>
     </section>
 
-    <!-- AI Projects Section -->
+    <!-- Open Source Projects -->
     <section class="py-12">
-      <h2 class="text-2xl font-semibold mb-2">{{ $t('home.projects.title') }}</h2>
-      <p class="text-white/50 mb-8">{{ $t('home.projects.subtitle') }}</p>
+      <h2 class="text-2xl font-semibold mb-2">{{ $t('home.opensource.title') }}</h2>
+      <p class="text-white/50 mb-8">{{ $t('home.opensource.subtitle') }}</p>
+
+      <div class="grid md:grid-cols-3 gap-4">
+        <a
+          v-for="project in openSourceProjects"
+          :key="project.name"
+          :href="project.url"
+          target="_blank"
+          rel="noopener"
+          class="group block p-5 border border-white/10 rounded-lg hover:border-red-500/50 hover:bg-white/5 transition-all"
+        >
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-semibold text-lg group-hover:text-red-500 transition-colors">
+              {{ project.name }}
+            </h3>
+            <span class="text-xs px-2 py-1 rounded bg-white/10 text-white/60">
+              {{ project.lang }}
+            </span>
+          </div>
+          <p class="text-white/60 text-sm">
+            {{ $t(`home.opensource.${project.key}.desc`) }}
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Current Work -->
+    <section class="py-12 border-t border-white/10">
+      <h2 class="text-2xl font-semibold mb-2">{{ $t('home.current.title') }}</h2>
+      <p class="text-white/50 mb-8">{{ $t('home.current.subtitle') }}</p>
 
       <div class="grid md:grid-cols-2 gap-4">
         <div
-          v-for="project in projects"
-          :key="project.name"
+          v-for="(item, index) in currentWork"
+          :key="index"
           class="p-5 border border-white/10 rounded-lg"
         >
-          <div class="flex items-start justify-between mb-2">
-            <h3 class="font-semibold text-lg">
-              {{ project.name }}
-            </h3>
-            <div class="flex gap-2">
-              <span class="text-xs px-2 py-1 rounded bg-white/10 text-white/60">
-                {{ project.lang }}
-              </span>
-              <span class="text-xs px-2 py-1 rounded bg-red-500/20 text-red-400">
-                {{ $t('home.projects.private') }}
-              </span>
-            </div>
-          </div>
-          <p class="text-white/60 text-sm">
-            {{ $t(`home.projects.${project.key}.desc`) }}
-          </p>
+          <h3 class="font-semibold text-lg mb-2">{{ $t(`home.current.items.${item}.title`) }}</h3>
+          <p class="text-white/60 text-sm">{{ $t(`home.current.items.${item}.desc`) }}</p>
         </div>
       </div>
     </section>
@@ -60,10 +75,11 @@
 <script setup>
 const localePath = useLocalePath()
 
-const projects = [
-  { key: 'personality', name: 'personality', lang: 'Python' },
-  { key: 'claude', name: 'claude', lang: 'TypeScript' },
-  { key: 'xc', name: 'xc', lang: 'Rust' },
-  { key: 'olingo', name: 'olingo', lang: 'Rust' }
+const openSourceProjects = [
+  { key: 'hu', name: 'hu', lang: 'Rust', url: 'https://github.com/aladac/hu' },
+  { key: 'claudeBrowse', name: 'claude-browse', lang: 'TypeScript', url: 'https://github.com/aladac/claude-browse' },
+  { key: 'tensors', name: 'tensors', lang: 'Python', url: 'https://github.com/aladac/tensors' }
 ]
+
+const currentWork = ['assistants', 'imageGen', 'agents']
 </script>

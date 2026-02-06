@@ -3,21 +3,35 @@
     "tagline": "Sanktuarium Cyfrowej Mysli",
     "subtitle": "Gdzie AI spotyka rzemioslo. Budujemy narzedzia, ktore ucza maszyny myslec, a programistom przywracaja usmiech.",
     "disclaimer": "(Maszyny jeszcze nie przejely wladzy. Mamy je na oku.)",
-    "projects": {
-      "title": "AI i Narzedzia Deweloperskie",
-      "subtitle": "Prywatne repozytoria. Bo niektore sekrety warto chronic.",
-      "private": "Prywatne",
-      "personality": {
-        "desc": "Framework asystenta AI z trwala pamiecia i wtyczkami do Claude Code. Pamieta rzeczy, zebys Ty nie musial."
+    "opensource": {
+      "title": "Open Source",
+      "subtitle": "Narzedzia, ktore wypuscilismy na wolnosc.",
+      "hu": {
+        "desc": "CLI do integracji z Claude Code. Nowy najlepszy przyjaciel Twojego terminala."
       },
-      "claude": {
-        "desc": "Konfiguracja Claude Code i wlasne komendy. Sprawiamy, ze asystenci AI sa naprawde przydatni od 2024."
+      "claudeBrowse": {
+        "desc": "Automatyzacja przegladarki dla Claude Code. Niech AI klika za Ciebie."
       },
-      "xc": {
-        "desc": "CLI i aplikacja desktopowa do generowania obrazow. Bo pisanie jest szybsze niz klikanie 47 przyciskow."
-      },
-      "olingo": {
-        "desc": "Minimalny agent ACP dla edytora Zed. Maly slad, wielkie ambicje."
+      "tensors": {
+        "desc": "CLI do plikow safetensor i modeli CivitAI. Oswajamy wagi od 2024."
+      }
+    },
+    "current": {
+      "title": "Obecnie Budujemy",
+      "subtitle": "Co gotuje sie w laboratorium.",
+      "items": {
+        "assistants": {
+          "title": "Frameworki Asystentow AI",
+          "desc": "Systemy trwalej pamieci i wtyczki do Claude Code. Uczymy AI pamietac Twoje zamowienie na kawe."
+        },
+        "imageGen": {
+          "title": "Narzedzia do Generowania Obrazow",
+          "desc": "Aplikacje desktopowe i CLI do generowania obrazow AI. Bo pisanie jest szybsze niz klikanie 47 przyciskow."
+        },
+        "agents": {
+          "title": "Agenci Edytorow",
+          "desc": "Minimalni agenci AI dla edytorow kodu. Maly slad, wielkie ambicje."
+        }
       }
     },
     "cta": "Ciekawi Cie, co budujemy?",

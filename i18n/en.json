@@ -3,21 +3,35 @@
     "tagline": "The Sanctuary of Digital Thought",
     "subtitle": "Where AI meets craftsmanship. We build tools that make machines think and developers smile.",
     "disclaimer": "(The machines haven't taken over yet. We're keeping an eye on them.)",
-    "projects": {
-      "title": "AI & Developer Tools",
-      "subtitle": "Private repositories. Because some secrets are worth keeping.",
-      "private": "Private",
-      "personality": {
-        "desc": "AI assistant framework with persistent memory and Claude Code plugins. It remembers things so you don't have to."
+    "opensource": {
+      "title": "Open Source",
+      "subtitle": "Tools we've unleashed into the wild.",
+      "hu": {
+        "desc": "Dev workflow CLI for Claude Code integration. Your terminal's new best friend."
       },
-      "claude": {
-        "desc": "Claude Code configuration and custom commands. Making AI assistants actually useful since 2024."
+      "claudeBrowse": {
+        "desc": "Headless browser automation for Claude Code. Let the AI do the clicking."
       },
-      "xc": {
-        "desc": "Image generation CLI and desktop app. Because typing is faster than clicking 47 buttons."
-      },
-      "olingo": {
-        "desc": "Minimal ACP agent for Zed editor. Small footprint, big ambitions."
+      "tensors": {
+        "desc": "CLI for safetensor files and CivitAI models. Wrangling weights since 2024."
+      }
+    },
+    "current": {
+      "title": "Currently Building",
+      "subtitle": "What's cooking in the lab.",
+      "items": {
+        "assistants": {
+          "title": "AI Assistant Frameworks",
+          "desc": "Persistent memory systems and Claude Code plugins. Teaching AI to remember your coffee order."
+        },
+        "imageGen": {
+          "title": "Image Generation Tools",
+          "desc": "Desktop apps and CLIs for AI image generation. Because typing is faster than clicking 47 buttons."
+        },
+        "agents": {
+          "title": "Editor Agents",
+          "desc": "Minimal AI agents for code editors. Small footprint, big ambitions."
+        }
       }
     },
     "cta": "Interested in what we're building?",
