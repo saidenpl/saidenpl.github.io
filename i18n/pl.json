@@ -134,8 +134,8 @@
       "title": "5. Twoje prawa",
       "eu": "Uzytkownicy z UE/EOG (RODO):",
       "euText": "Masz prawo dostepu, sprostowania, usuniecia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu wobec przetwarzania. Mozesz wycofac zgode w dowolnym momencie.",
-      "us": "Uzytkownicy z Kalifornii (CCPA/CPRA):",
-      "usText": "Masz prawo wiedziec, jakie dane osobowe zbieramy, zadac ich usuniecia, zrezygnowac ze sprzedazy lub udostepniania (nie sprzedajemy Twoich danych) oraz nie byc dyskryminowanym za korzystanie ze swoich praw."
+      "california": "Uzytkownicy z Kalifornii (CCPA/CPRA):",
+      "californiaText": "Masz prawo wiedziec, jakie dane osobowe zbieramy, zadac ich usuniecia, zrezygnowac ze sprzedazy lub udostepniania (nie sprzedajemy Twoich danych) oraz nie byc dyskryminowanym za korzystanie ze swoich praw."
     },
     "cookies": {
       "title": "6. Pliki cookie",

@@ -105,6 +105,10 @@
     "activity": {
       "title": "What We Do",
       "description": "Software development, IT consulting, and infrastructure management."
+    },
+    "us": {
+      "title": "Working with US Companies",
+      "description": "We have experience working with US-based companies both through their Polish subsidiaries and directly on contract. Whether you need a contractor familiar with US business practices or a partner in the EU timezone, we're ready to collaborate."
     }
   },
   "privacy": {
@@ -112,7 +116,7 @@
     "updated": "Last updated: February 2026",
     "overview": {
       "title": "1. Introduction",
-      "text": "SAIDEN (\"we\", \"us\", \"our\") respects your privacy. This policy describes how we collect, use, and protect your personal data in compliance with the GDPR (EU) and CCPA/CPRA (California)."
+      "text": "SAIDEN (\"we\", \"us\", \"our\") respects your privacy. This policy describes how we collect, use, and protect your personal data in compliance with the GDPR (EU), CCPA/CPRA (California), TDPSA (Texas), SB 220 (Nevada), and the SHIELD Act (New York)."
     },
     "collect": {
       "title": "2. Information We Collect",
@@ -134,8 +138,14 @@
       "title": "5. Your Rights",
       "eu": "EU/EEA Users (GDPR):",
       "euText": "You have the right to access, rectify, erase, restrict processing, data portability, and to object to processing. You may withdraw consent at any time.",
-      "us": "California Users (CCPA/CPRA):",
-      "usText": "You have the right to know what personal information we collect, to request deletion, to opt-out of sale or sharing (we do not sell your data), and to not be discriminated against for exercising your rights."
+      "california": "California (CCPA/CPRA):",
+      "californiaText": "You have the right to know what personal information we collect, to request deletion, to opt-out of sale or sharing (we do not sell your data), and to not be discriminated against for exercising your rights.",
+      "texas": "Texas (TDPSA):",
+      "texasText": "You have the right to access, correct, delete, and obtain a copy of your personal data. You may opt out of targeted advertising and the sale of personal data. We honor Global Privacy Control signals.",
+      "nevada": "Nevada (SB 220):",
+      "nevadaText": "You have the right to opt out of the sale of your personal information. We do not sell your data, but you may submit an opt-out request at any time.",
+      "newyork": "New York (SHIELD Act):",
+      "newyorkText": "We maintain reasonable administrative, technical, and physical safeguards to protect the security and confidentiality of your private information as required by the SHIELD Act."
     },
     "cookies": {
       "title": "6. Cookies",

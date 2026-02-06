@@ -62,5 +62,15 @@
       <h2 class="text-lg font-semibold text-white mb-2">{{ $t('contact.activity.title') }}</h2>
       <p class="text-white/70">{{ $t('contact.activity.description') }}</p>
     </section>
+
+    <!-- US Companies (English only) -->
+    <section v-if="locale === 'en'" class="pt-4 border-t border-white/10">
+      <h2 class="text-lg font-semibold text-white mb-2">{{ $t('contact.us.title') }}</h2>
+      <p class="text-white/70">{{ $t('contact.us.description') }}</p>
+    </section>
   </div>
 </template>
+
+<script setup>
+const { locale } = useI18n()
+</script>

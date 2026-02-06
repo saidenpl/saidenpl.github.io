@@ -36,8 +36,15 @@
 
       <section>
         <h2 class="text-lg font-semibold text-white mb-2">{{ $t('privacy.rights.title') }}</h2>
-        <p class="mb-2"><strong class="text-white">{{ $t('privacy.rights.eu') }}</strong> {{ $t('privacy.rights.euText') }}</p>
-        <p><strong class="text-white">{{ $t('privacy.rights.us') }}</strong> {{ $t('privacy.rights.usText') }}</p>
+        <div class="space-y-3">
+          <p><strong class="text-white">{{ $t('privacy.rights.eu') }}</strong> {{ $t('privacy.rights.euText') }}</p>
+          <p><strong class="text-white">{{ $t('privacy.rights.california') }}</strong> {{ $t('privacy.rights.californiaText') }}</p>
+          <template v-if="locale === 'en'">
+            <p><strong class="text-white">{{ $t('privacy.rights.texas') }}</strong> {{ $t('privacy.rights.texasText') }}</p>
+            <p><strong class="text-white">{{ $t('privacy.rights.nevada') }}</strong> {{ $t('privacy.rights.nevadaText') }}</p>
+            <p><strong class="text-white">{{ $t('privacy.rights.newyork') }}</strong> {{ $t('privacy.rights.newyorkText') }}</p>
+          </template>
+        </div>
       </section>
 
       <section>
@@ -68,3 +75,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const { locale } = useI18n()
+</script>
