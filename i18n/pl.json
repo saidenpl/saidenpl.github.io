@@ -14,6 +14,15 @@
       },
       "tensors": {
         "desc": "CLI do zarzadzania wagami modeli safetensor i przegladania CivitAI. Oswajamy tensory, plik po pliku."
+      },
+      "itt": {
+        "desc": "Kolory i tytuly zakladek iTerm2 z linii polecen. Bo Twoj terminal tez zasluguje, zeby dobrze wygladac."
+      },
+      "smt": {
+        "desc": "Show Me Time. Proste CLI do wyswietlania aktualnego czasu ze stylem."
+      },
+      "nginxGallery": {
+        "desc": "Galeria zdjec i wideo przez nginx autoindex + XSLT. Zero backendu, czysta elegancja."
       }
     },
     "current": {

@@ -14,6 +14,15 @@
       },
       "tensors": {
         "desc": "CLI for managing safetensor model weights and browsing CivitAI. Taming tensors, one file at a time."
+      },
+      "itt": {
+        "desc": "iTerm2 tab colors and titles from the command line. Because your terminal deserves to look good too."
+      },
+      "smt": {
+        "desc": "Show Me Time. A simple CLI to display the current time in style."
+      },
+      "nginxGallery": {
+        "desc": "Photo and video gallery via nginx autoindex + XSLT. Zero backend, pure elegance."
       }
     },
     "current": {

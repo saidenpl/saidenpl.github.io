@@ -78,7 +78,10 @@ const localePath = useLocalePath()
 const openSourceProjects = [
   { key: 'hu', name: 'hu', lang: 'Rust', url: 'https://github.com/aladac/hu' },
   { key: 'claudeBrowse', name: 'claude-browse', lang: 'TypeScript', url: 'https://github.com/aladac/claude-browse' },
-  { key: 'tensors', name: 'tensors', lang: 'Python', url: 'https://github.com/aladac/tensors' }
+  { key: 'tensors', name: 'tensors', lang: 'Python', url: 'https://github.com/aladac/tensors' },
+  { key: 'itt', name: 'itt', lang: 'Ruby', url: 'https://github.com/aladac/itt' },
+  { key: 'smt', name: 'smt', lang: 'Ruby', url: 'https://github.com/aladac/smt' },
+  { key: 'nginxGallery', name: 'nginx-gallery', lang: 'XSLT', url: 'https://github.com/aladac/nginx-gallery' }
 ]
 
 const currentWork = ['assistants', 'imageGen', 'agents']
