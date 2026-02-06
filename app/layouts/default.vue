@@ -6,8 +6,9 @@
       <header class="max-w-4xl mx-auto px-6">
         <nav class="flex items-center justify-between py-4 border-b border-white/10">
           <!-- Logo -->
-          <NuxtLink :to="localePath('/')" class="flex items-center">
+          <NuxtLink :to="localePath('/')" class="flex items-center gap-3">
             <img src="/logo.png" alt="SAIDEN" class="h-8">
+            <span class="font-semibold text-lg tracking-wide">SAIDEN</span>
           </NuxtLink>
 
           <!-- Navigation links -->
