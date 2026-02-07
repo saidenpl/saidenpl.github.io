@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-browse__goto",
+      "mcp__claude-browse__query",
+      "mcp__claude-browse__screenshot"
+    ]
+  }
+}
