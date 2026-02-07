@@ -11,6 +11,8 @@
   },
   "enabledMcpjsonServers": [
     "nuxt",
-    "nuxt-ui"
+    "nuxt-ui",
+    "nuxt-dev",
+    "nuxt-docs"
   ]
 }
