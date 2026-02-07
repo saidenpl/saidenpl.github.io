@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is **SAIDEN** - a static business website for a Polish software development company. Built with Nuxt 4 and deployed to GitHub Pages.
+This is **SAIDEN** - a static business website for a Polish software development company. Built with Nuxt 4 and deployed to GitHub Pages. Production site: https://saiden.pl
 
 ## Commands
 
