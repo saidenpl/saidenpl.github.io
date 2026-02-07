@@ -50,18 +50,40 @@ const { t } = useI18n()
 
 Translation keys are nested objects in `i18n/*.json`. Add new keys to both `en.json` and `pl.json`.
 
-## Nuxt MCP Integration
+## MCP Servers
 
-The project includes `nuxt-mcp-dev` for MCP (Model Context Protocol) integration during development. Available tools:
-- `get-nuxt-config` - Get Nuxt configuration (ssr, modules, runtime config, etc.)
-- `get-vite-config` - Get Vite config (root, resolve, plugins)
-- `list-nuxt-pages` - List registered pages with i18n variants
-- `list-nuxt-components` - List all registered components
-- `list-nuxt-auto-imports-items` - List available auto-imports (Vue, Nuxt, i18n, UI composables)
-- `get-vite-module-info` - Get module graph info for a specific file
-- `nuxt-scaffold` - Scaffold new components/pages/layouts/etc.
+This project uses several MCP (Model Context Protocol) servers configured in `.mcp.json`:
 
-**Note**: The MCP server log may show port 3000, but it actually uses the same port as the dev server. When running `npm run dev -- --port 8080`, MCP is at `http://localhost:8080/__mcp/sse`.
+### nuxt (dev server)
+Built-in via `nuxt-mcp-dev` module. Requires dev server running.
+- `get-nuxt-config` - Nuxt configuration (ssr, modules, runtime config)
+- `get-vite-config` - Vite config (root, resolve, plugins)
+- `list-nuxt-pages` - Registered pages with i18n variants
+- `list-nuxt-components` - All registered components
+- `list-nuxt-auto-imports-items` - Available auto-imports (Vue, Nuxt, i18n, UI)
+- `get-vite-module-info` - Module graph info for a specific file
+- `nuxt-scaffold` - Scaffold components/pages/layouts/middleware/etc.
+
+**Note**: MCP log shows port 3000, but uses actual dev server port. With `npm run dev -- --port 8080`, MCP is at `http://localhost:8080/__mcp/sse`.
+
+### nuxt-ui (`@riyenz/nuxt-ui-mcp-server`)
+Nuxt UI component documentation and examples.
+- `list_components` - List all Nuxt UI components
+- `get_component` - Get component markdown with source and theme file
+
+### nuxt-docs (`https://nuxt.com/mcp`)
+Remote Nuxt documentation access.
+
+### claude-browse (global)
+Browser automation for testing. Available tools:
+- `goto`, `back`, `forward`, `reload` - Navigation
+- `screenshot` - Capture page screenshots
+- `click`, `type` - User interactions
+- `query` - CSS selector queries (returns elements with attributes)
+- `html` - Get page HTML content
+- `eval` - Execute JavaScript in browser context
+- `wait` - Wait for specified milliseconds
+- `url` - Get current URL and title
 
 ## Styling Notes
 
