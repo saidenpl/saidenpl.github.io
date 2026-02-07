@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   modules: [
+    'nuxt-mcp-dev',
     '@nuxt/content',
     '@nuxt/fonts',
     '@nuxt/hints',

@@ -3,7 +3,10 @@
     "allow": [
       "mcp__claude-browse__goto",
       "mcp__claude-browse__query",
-      "mcp__claude-browse__screenshot"
+      "mcp__claude-browse__screenshot",
+      "WebFetch(domain:nuxt.com)",
+      "WebFetch(domain:mcp.so)",
+      "WebFetch(domain:ui.nuxt.com)"
     ]
   }
 }
