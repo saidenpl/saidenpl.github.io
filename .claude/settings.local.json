@@ -6,7 +6,19 @@
       "mcp__claude-browse__screenshot",
       "WebFetch(domain:nuxt.com)",
       "WebFetch(domain:mcp.so)",
-      "WebFetch(domain:ui.nuxt.com)"
+      "WebFetch(domain:ui.nuxt.com)",
+      "mcp__nuxt__get-nuxt-config",
+      "mcp__nuxt__list-nuxt-pages",
+      "mcp__nuxt__list-nuxt-components",
+      "mcp__nuxt__get-vite-config",
+      "mcp__nuxt__list-nuxt-auto-imports-items",
+      "mcp__claude-browse__url",
+      "mcp__claude-browse__click",
+      "mcp__claude-browse__wait",
+      "mcp__claude-browse__html",
+      "mcp__claude-browse__eval",
+      "mcp__claude-browse__back",
+      "mcp__claude-browse__forward"
     ]
   },
   "enabledMcpjsonServers": [

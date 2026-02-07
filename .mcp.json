@@ -8,7 +8,11 @@
     },
     "nuxt": {
       "type": "sse",
-      "url": "http://localhost:8080/__mcp/sse"
+      "url": "http://localhost:3000/__mcp/sse"
+    },
+    "nuxt-docs": {
+      "type": "sse",
+      "url": "https://nuxt.com/mcp"
     }
   }
 }

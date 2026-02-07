@@ -50,6 +50,19 @@ const { t } = useI18n()
 
 Translation keys are nested objects in `i18n/*.json`. Add new keys to both `en.json` and `pl.json`.
 
+## Nuxt MCP Integration
+
+The project includes `nuxt-mcp-dev` for MCP (Model Context Protocol) integration during development. Available tools:
+- `get-nuxt-config` - Get Nuxt configuration (ssr, modules, runtime config, etc.)
+- `get-vite-config` - Get Vite config (root, resolve, plugins)
+- `list-nuxt-pages` - List registered pages with i18n variants
+- `list-nuxt-components` - List all registered components
+- `list-nuxt-auto-imports-items` - List available auto-imports (Vue, Nuxt, i18n, UI composables)
+- `get-vite-module-info` - Get module graph info for a specific file
+- `nuxt-scaffold` - Scaffold new components/pages/layouts/etc.
+
+**Note**: The MCP server log may show port 3000, but it actually uses the same port as the dev server. When running `npm run dev -- --port 8080`, MCP is at `http://localhost:8080/__mcp/sse`.
+
 ## Styling Notes
 
 - Brand color: red-500 (#ef4444) for accents and active states
