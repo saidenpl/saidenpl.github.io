@@ -8,5 +8,9 @@
       "WebFetch(domain:mcp.so)",
       "WebFetch(domain:ui.nuxt.com)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "nuxt",
+    "nuxt-ui"
+  ]
 }
