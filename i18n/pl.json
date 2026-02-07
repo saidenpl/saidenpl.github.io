@@ -1,107 +1,107 @@
 {
   "home": {
-    "tagline": "Sanktuarium Cyfrowej Mysli",
-    "subtitle": "Gdzie AI spotyka rzemioslo. Budujemy narzedzia, ktore ucza maszyny myslec, a programistom przywracaja usmiech.",
-    "disclaimer": "(Maszyny jeszcze nie przejely wladzy. Mamy je na oku.)",
+    "tagline": "Sanktuarium Cyfrowej Myśli",
+    "subtitle": "Gdzie AI spotyka rzemiosło. Budujemy narzędzia, które uczą maszyny myśleć, a programistom przywracają uśmiech.",
+    "disclaimer": "(Maszyny jeszcze nie przejęły władzy. Mamy je na oku.)",
     "opensource": {
       "title": "Open Source",
-      "subtitle": "Narzedzia, ktore wypuscilismy w swiat.",
+      "subtitle": "Narzędzia, które wypuściliśmy w świat.",
       "hu": {
-        "desc": "CLI rozszerzajace Claude Code o wlasne komendy. Twoj terminal, naladowany."
+        "desc": "CLI rozszerzające Claude Code o własne komendy. Twój terminal, naładowany."
       },
       "claudeBrowse": {
-        "desc": "Automatyzacja przegladarki przez Playwright dla Claude Code. Niech AI przegląda za Ciebie."
+        "desc": "Automatyzacja przeglądarki przez Playwright dla Claude Code. Niech AI przegląda za Ciebie."
       },
       "tensors": {
-        "desc": "CLI do zarzadzania wagami modeli safetensor i przegladania CivitAI. Oswajamy tensory, plik po pliku."
+        "desc": "CLI do zarządzania wagami modeli safetensor i przeglądania CivitAI. Oswajamy tensory, plik po pliku."
       },
       "itt": {
-        "desc": "Kolory i tytuly zakladek iTerm2 z linii polecen. Bo Twoj terminal tez zasluguje, zeby dobrze wygladac."
+        "desc": "Kolory i tytuły zakładek iTerm2 z linii poleceń. Bo Twój terminal też zasługuje, żeby dobrze wyglądać."
       },
       "smt": {
-        "desc": "Show Me Time. Proste CLI do wyswietlania aktualnego czasu ze stylem."
+        "desc": "Show Me Time. Proste CLI do wyświetlania aktualnego czasu ze stylem."
       },
       "nginxGallery": {
-        "desc": "Galeria zdjec i wideo przez nginx autoindex + XSLT. Zero backendu, czysta elegancja."
+        "desc": "Galeria zdjęć i wideo przez nginx autoindex + XSLT. Zero backendu, czysta elegancja."
       }
     },
     "current": {
       "title": "Obecnie Budujemy",
-      "subtitle": "Co warzy sie w laboratorium.",
+      "subtitle": "Co warzy się w laboratorium.",
       "items": {
         "assistants": {
-          "title": "Frameworki Asystentow AI",
-          "desc": "Systemy trwalej pamieci i wtyczki do Claude Code. Bo nawet AI zasluguje na pamiec dlugoterminowa."
+          "title": "Frameworki Asystentów AI",
+          "desc": "Systemy trwałej pamięci i wtyczki do Claude Code. Bo nawet AI zasługuje na pamięć długoterminową."
         },
         "imageGen": {
-          "title": "Narzedzia do Generowania Obrazow",
-          "desc": "Aplikacje desktopowe i CLI dla Stable Diffusion i przyjaciol. Piksele na zadanie."
+          "title": "Narzędzia do Generowania Obrazów",
+          "desc": "Aplikacje desktopowe i CLI dla Stable Diffusion i przyjaciół. Piksele na żądanie."
         },
         "agents": {
           "title": "Agenci ACP",
-          "desc": "Lekkie agenty dla Agent Client Protocol. Laczenie AI z kazdym edytorem, ktory mowi tym jezykiem."
+          "desc": "Lekkie agenty dla Agent Client Protocol. Łączenie AI z każdym edytorem, który mówi tym językiem."
         }
       }
     },
     "counter": {
-      "label": "Tokenow AI przetworzonych na swiecie",
-      "disclaimer": "* Calkowicie prawdziwa liczba, zaufaj nam"
+      "label": "Tokenów AI przetworzonych na świecie",
+      "disclaimer": "* Całkowicie prawdziwa liczba, zaufaj nam"
     },
-    "cta": "Ciekawi Cie, co budujemy?",
-    "ctaButton": "Skontaktuj sie"
+    "cta": "Ciekawi Cię, co budujemy?",
+    "ctaButton": "Skontaktuj się"
   },
   "nav": {
-    "home": "Strona glowna",
+    "home": "Strona główna",
     "terms": "Regulamin",
-    "privacy": "Prywatnosc",
+    "privacy": "Prywatność",
     "contact": "Kontakt"
   },
   "terms": {
     "title": "Regulamin",
     "updated": "Ostatnia aktualizacja: luty 2026",
     "acceptance": {
-      "title": "1. Akceptacja warunkow",
-      "text": "Korzystajac z tej strony lub uslug, akceptujesz niniejszy regulamin. Jesli nie zgadzasz sie z tymi warunkami, prosimy o niekorzystanie z naszych uslug."
+      "title": "1. Akceptacja warunków",
+      "text": "Korzystając z tej strony lub usług, akceptujesz niniejszy regulamin. Jeśli nie zgadzasz się z tymi warunkami, prosimy o niekorzystanie z naszych usług."
     },
     "use": {
-      "title": "2. Dozwolone uzycie",
-      "text": "Mozesz korzystac z naszych uslug wylacznie w celach zgodnych z prawem. Zobowiazujesz sie nie wykorzystywac naszych uslug do dzialan nielegalnych, nieautoryzowanych lub szkodliwych oraz przestrzegac wszystkich obowiazujacych przepisow."
+      "title": "2. Dozwolone użycie",
+      "text": "Możesz korzystać z naszych usług wyłącznie w celach zgodnych z prawem. Zobowiązujesz się nie wykorzystywać naszych usług do działań nielegalnych, nieautoryzowanych lub szkodliwych oraz przestrzegać wszystkich obowiązujących przepisów."
     },
     "ip": {
-      "title": "3. Wlasnosc intelektualna",
-      "text": "Wszystkie tresci, kod, znaki towarowe i materialy na tej stronie sa wlasnoscia SAIDEN, chyba ze zaznaczono inaczej. Reprodukcja, dystrybucja lub tworzenie dziel pochodnych wymaga uprzedniej pisemnej zgody."
+      "title": "3. Własność intelektualna",
+      "text": "Wszystkie treści, kod, znaki towarowe i materiały na tej stronie są własnością SAIDEN, chyba że zaznaczono inaczej. Reprodukcja, dystrybucja lub tworzenie dzieł pochodnych wymaga uprzedniej pisemnej zgody."
     },
     "disclaimer": {
-      "title": "4. Wylaczenie gwarancji",
-      "text": "Nasze uslugi sa swiadczone w stanie \"takim, jakim sa\" i \"w miare dostepnosci\" bez jakichkolwiek gwarancji, wyraznych lub dorozumianych. Nie gwarantujemy dostepnosci, dokladnosci ani niezawodnosci."
+      "title": "4. Wyłączenie gwarancji",
+      "text": "Nasze usługi są świadczone w stanie \"takim, jakim są\" i \"w miarę dostępności\" bez jakichkolwiek gwarancji, wyraźnych lub dorozumianych. Nie gwarantujemy dostępności, dokładności ani niezawodności."
     },
     "liability": {
-      "title": "5. Ograniczenie odpowiedzialnosci",
-      "text": "W najszerszym zakresie dozwolonym przez prawo, SAIDEN nie ponosi odpowiedzialnosci za jakiekolwiek posrednie, przypadkowe, szczegolne, wynikowe lub karne szkody wynikajace z korzystania z naszych uslug."
+      "title": "5. Ograniczenie odpowiedzialności",
+      "text": "W najszerszym zakresie dozwolonym przez prawo, SAIDEN nie ponosi odpowiedzialności za jakiekolwiek pośrednie, przypadkowe, szczególne, wynikowe lub karne szkody wynikające z korzystania z naszych usług."
     },
     "law": {
-      "title": "6. Prawo wlasciwe",
-      "text": "Niniejszy regulamin podlega prawu polskiemu oraz obowiazujacym przepisom UE. Dla uzytkownikow spoza UE spory beda rozstrzygane zgodnie z prawem polskim przez sady w Warszawie."
+      "title": "6. Prawo właściwe",
+      "text": "Niniejszy regulamin podlega prawu polskiemu oraz obowiązującym przepisom UE. Dla użytkowników spoza UE spory będą rozstrzygane zgodnie z prawem polskim przez sądy w Warszawie."
     },
     "changes": {
       "title": "7. Zmiany",
-      "text": "Zastrzegamy sobie prawo do zmiany niniejszego regulaminu w dowolnym momencie. Zmiany wchodza w zycie z chwila publikacji. Dalsze korzystanie oznacza akceptacje zaktualizowanych warunkow."
+      "text": "Zastrzegamy sobie prawo do zmiany niniejszego regulaminu w dowolnym momencie. Zmiany wchodzą w życie z chwilą publikacji. Dalsze korzystanie oznacza akceptację zaktualizowanych warunków."
     },
     "contact": {
       "title": "8. Kontakt",
-      "text": "W sprawie pytan dotyczacych regulaminu, skontaktuj sie z nami:"
+      "text": "W sprawie pytań dotyczących regulaminu, skontaktuj się z nami:"
     }
   },
   "contact": {
     "title": "Kontakt",
     "info": {
       "title": "Dane kontaktowe",
-      "address": "ul. Jana Nowaka-Jezioranskiego 9 lok. 291",
+      "address": "ul. Jana Nowaka-Jeziorańskiego 9 lok. 291",
       "city": "03-984 Warszawa"
     },
     "company": {
       "title": "Dane firmowe",
-      "fullName": "Nazwa pelna:",
+      "fullName": "Nazwa pełna:",
       "fullNameValue": "SAIDEN Adam Ladachowski",
       "regAddress": "Adres rejestrowy:",
       "nip": "NIP:",
@@ -109,67 +109,67 @@
       "regon": "REGON:",
       "regonValue": "147201411",
       "legalForm": "Forma prawna:",
-      "legalFormValue": "Indywidualna dzialalnosc gospodarcza",
-      "startDate": "Data rozpoczecia dzialalnosci:",
+      "legalFormValue": "Indywidualna działalność gospodarcza",
+      "startDate": "Data rozpoczęcia działalności:",
       "startDateValue": "01.05.2014",
       "registry": "Rejestr publiczny:",
       "registryLink": "CEIDG"
     },
     "activity": {
-      "title": "Czym sie zajmujemy",
-      "description": "Tworzenie oprogramowania, doradztwo IT i zarzadzanie infrastruktura."
+      "title": "Czym się zajmujemy",
+      "description": "Tworzenie oprogramowania, doradztwo IT i zarządzanie infrastrukturą."
     }
   },
   "privacy": {
-    "title": "Polityka prywatnosci",
+    "title": "Polityka prywatności",
     "updated": "Ostatnia aktualizacja: luty 2026",
     "overview": {
       "title": "1. Wprowadzenie",
-      "text": "SAIDEN (\"my\", \"nas\", \"nasz\") szanuje Twoja prywatnosc. Niniejsza polityka opisuje, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe zgodnie z RODO (UE) oraz CCPA/CPRA (Kalifornia)."
+      "text": "SAIDEN (\"my\", \"nas\", \"nasz\") szanuje Twoją prywatność. Niniejsza polityka opisuje, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe zgodnie z RODO (UE) oraz CCPA/CPRA (Kalifornia)."
     },
     "collect": {
       "title": "2. Jakie dane zbieramy",
-      "item1": "Dane kontaktowe (imie, email) gdy sie z nami kontaktujesz",
-      "item2": "Dane techniczne (adres IP, typ przegladarki, informacje o urzadzeniu)",
-      "item3": "Dane o uzyciu (odwiedzane strony, czas na stronie, zrodlo odwiedzin)"
+      "item1": "Dane kontaktowe (imię, email) gdy się z nami kontaktujesz",
+      "item2": "Dane techniczne (adres IP, typ przeglądarki, informacje o urządzeniu)",
+      "item3": "Dane o użyciu (odwiedzane strony, czas na stronie, źródło odwiedzin)"
     },
     "use": {
       "title": "3. Jak wykorzystujemy Twoje dane",
-      "item1": "Aby odpowiadac na Twoje zapytania i swiadczyc wsparcie",
-      "item2": "Aby ulepszac nasza strone i uslugi",
-      "item3": "Aby wypelniac obowiazki prawne"
+      "item1": "Aby odpowiadać na Twoje zapytania i świadczyć wsparcie",
+      "item2": "Aby ulepszać naszą stronę i usługi",
+      "item3": "Aby wypełniać obowiązki prawne"
     },
     "legal": {
       "title": "4. Podstawa prawna przetwarzania (RODO)",
-      "text": "Przetwarzamy dane osobowe na podstawie: Twojej zgody, wykonania umowy, wypelnienia obowiazkow prawnych lub naszych uzasadnionych interesow (pod warunkiem, ze nie naruszaja one Twoich podstawowych praw)."
+      "text": "Przetwarzamy dane osobowe na podstawie: Twojej zgody, wykonania umowy, wypełnienia obowiązków prawnych lub naszych uzasadnionych interesów (pod warunkiem, że nie naruszają one Twoich podstawowych praw)."
     },
     "rights": {
       "title": "5. Twoje prawa",
-      "eu": "Uzytkownicy z UE/EOG (RODO):",
-      "euText": "Masz prawo dostepu, sprostowania, usuniecia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu wobec przetwarzania. Mozesz wycofac zgode w dowolnym momencie.",
-      "california": "Uzytkownicy z Kalifornii (CCPA/CPRA):",
-      "californiaText": "Masz prawo wiedziec, jakie dane osobowe zbieramy, zadac ich usuniecia, zrezygnowac ze sprzedazy lub udostepniania (nie sprzedajemy Twoich danych) oraz nie byc dyskryminowanym za korzystanie ze swoich praw."
+      "eu": "Użytkownicy z UE/EOG (RODO):",
+      "euText": "Masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu wobec przetwarzania. Możesz wycofać zgodę w dowolnym momencie.",
+      "california": "Użytkownicy z Kalifornii (CCPA/CPRA):",
+      "californiaText": "Masz prawo wiedzieć, jakie dane osobowe zbieramy, żądać ich usunięcia, zrezygnować ze sprzedaży lub udostępniania (nie sprzedajemy Twoich danych) oraz nie być dyskryminowanym za korzystanie ze swoich praw."
     },
     "cookies": {
       "title": "6. Pliki cookie",
-      "text": "Uzywamy wylacznie niezbednych plikow cookie wymaganych do podstawowego dzialania strony. Nie stosujemy plikow sledzacych ani reklamowych. Mozesz zarzadzac preferencjami cookie w ustawieniach przegladarki."
+      "text": "Używamy wyłącznie niezbędnych plików cookie wymaganych do podstawowego działania strony. Nie stosujemy plików śledzących ani reklamowych. Możesz zarządzać preferencjami cookie w ustawieniach przeglądarki."
     },
     "retention": {
       "title": "7. Okres przechowywania danych",
-      "text": "Przechowujemy dane osobowe tylko tak dlugo, jak jest to konieczne do realizacji celow, dla ktorych zostaly zebrane. Po tym okresie dane sa bezpiecznie usuwane lub anonimizowane."
+      "text": "Przechowujemy dane osobowe tylko tak długo, jak jest to konieczne do realizacji celów, dla których zostały zebrane. Po tym okresie dane są bezpiecznie usuwane lub anonimizowane."
     },
     "security": {
-      "title": "8. Srodki bezpieczenstwa",
-      "text": "Wdrazamy odpowiednie srodki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed nieuprawnionym dostepem, zmiana, ujawnieniem lub zniszczeniem."
+      "title": "8. Środki bezpieczeństwa",
+      "text": "Wdrażamy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed nieuprawnionym dostępem, zmianą, ujawnieniem lub zniszczeniem."
     },
     "transfers": {
-      "title": "9. Miedzynarodowe transfery danych",
-      "text": "Jesli przekazujemy dane osobowe poza EOG, zapewniamy odpowiednie zabezpieczenia, takie jak Standardowe Klauzule Umowne zatwierdzone przez Komisje Europejska."
+      "title": "9. Międzynarodowe transfery danych",
+      "text": "Jeśli przekazujemy dane osobowe poza EOG, zapewniamy odpowiednie zabezpieczenia, takie jak Standardowe Klauzule Umowne zatwierdzone przez Komisję Europejską."
     },
     "contact": {
       "title": "10. Kontakt i skargi",
-      "text": "W sprawie pytan dotyczacych prywatnosci, skontaktuj sie z nami:",
-      "complaint": "Masz rowniez prawo zlozyc skarge do lokalnego organu nadzorczego ds. ochrony danych."
+      "text": "W sprawie pytań dotyczących prywatności, skontaktuj się z nami:",
+      "complaint": "Masz również prawo złożyć skargę do lokalnego organu nadzorczego ds. ochrony danych."
     }
   }
 }
