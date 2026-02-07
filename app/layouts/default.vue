@@ -1,9 +1,9 @@
 <template>
-  <div class="min-h-screen bg-black text-white">
+  <div class="min-h-screen bg-black text-white flex flex-col">
     <!-- Top padding -->
-    <div class="pt-8">
+    <div class="pt-8 flex-1 flex flex-col">
       <!-- Navbar -->
-      <header class="max-w-4xl mx-auto px-6">
+      <header class="max-w-4xl mx-auto px-6 w-full">
         <nav class="flex items-center justify-between py-4 border-b border-white/10">
           <!-- Logo -->
           <NuxtLink :to="localePath('/')" class="flex items-center gap-3">
@@ -11,33 +11,28 @@
             <span class="font-semibold text-lg tracking-wide">SAIDEN</span>
           </NuxtLink>
 
-          <!-- Navigation links -->
-          <div class="flex items-center gap-8">
-            <NuxtLink :to="localePath('/')" exact-active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.home') }}</NuxtLink>
-            <NuxtLink :to="localePath('/terms')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.terms') }}</NuxtLink>
-            <NuxtLink :to="localePath('/privacy')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.privacy') }}</NuxtLink>
-            <NuxtLink :to="localePath('/contact')" active-class="!text-red-500" class="text-sm text-white/60 hover:text-white transition-colors">{{ $t('nav.contact') }}</NuxtLink>
-
-            <!-- Language switcher -->
-            <div class="flex items-center gap-2 ml-4 pl-4 border-l border-white/10">
-              <NuxtLink
-                v-for="locale in availableLocales"
-                :key="locale.code"
-                :to="switchLocalePath(locale.code)"
-                class="text-xs uppercase"
-                :class="locale.code === $i18n.locale ? 'text-red-500' : 'text-white/40 hover:text-white'"
-              >
-                {{ locale.code }}
-              </NuxtLink>
-            </div>
+          <!-- Language switcher -->
+          <div class="flex items-center gap-2">
+            <NuxtLink
+              v-for="locale in availableLocales"
+              :key="locale.code"
+              :to="switchLocalePath(locale.code)"
+              class="text-xs uppercase"
+              :class="locale.code === $i18n.locale ? 'text-red-500' : 'text-white/40 hover:text-white'"
+            >
+              {{ locale.code }}
+            </NuxtLink>
           </div>
         </nav>
       </header>
 
       <!-- Main content with extra padding -->
-      <main class="max-w-4xl mx-auto px-6 py-12">
+      <main class="max-w-4xl mx-auto px-6 py-12 w-full flex-1">
         <slot />
       </main>
+
+      <!-- Footer -->
+      <Footer />
     </div>
   </div>
 </template>
